@@ -1,6 +1,6 @@
 {
 	"name": "one-thing",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Set the text for the One Thing app",
 	"license": "MIT",
 	"repository": "sindresorhus/one-thing",
