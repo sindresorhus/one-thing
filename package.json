@@ -21,8 +21,9 @@
 		"test": "xo && ava"
 	},
 	"files": [
-		"cli.js",
-		"api.js"
+		"index.js",
+		"index.d.ts",
+		"cli.js"
 	],
 	"keywords": [
 		"cli-app",

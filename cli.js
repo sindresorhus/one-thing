@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import meow from 'meow';
-import oneThing from './api.js';
+import oneThing from './index.js';
 
 const cli = meow(`
 	Usage
