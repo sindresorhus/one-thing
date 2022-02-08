@@ -4,7 +4,7 @@
 
 <img src="screenshot.jpg" width="503">
 
-*Requires [Node.js 12](https://nodejs.org).*
+**Requires [Node.js 12](https://nodejs.org) and the [One Thing](https://sindresorhus.com/one-thing) app to be installed.**
 
 ## CLI
 
