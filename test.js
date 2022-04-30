@@ -8,7 +8,11 @@ test('main', async t => {
 		return;
 	}
 
+	const fixture = 'unicorn';
+
 	await execa('./cli.js');
-	await execa('./cli.js', ['unicorn']);
-	t.pass();
+	await execa('./cli.js', [fixture]);
+
+	const {stdout} = await execa('./cli.js', ['--get']);
+	t.is(stdout, fixture);
 });

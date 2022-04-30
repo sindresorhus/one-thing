@@ -17,6 +17,7 @@ $ one-thing --help
 
   Usage
     $ one-thing <text>
+    $ one-thing --get
 
   Example
     $ one-thing 'Prepare for important meeting'
@@ -29,7 +30,10 @@ npm install one-thing
 ```
 
 ```js
-import oneThing from 'one-thing';
+import oneThing, {getOneThing} from 'one-thing';
 
-oneThing('Prepare for important meeting');
+await oneThing('Prepare for important meeting');
+
+console.log(await getOneThing());
+//=> 'Prepare for important meeting'
 ```
